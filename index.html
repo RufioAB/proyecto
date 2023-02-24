@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="proyecto-final\js\script.js"></script>
+    <title>Joaquin Barnada</title>
+</head>
+
+<body>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">/JAB/ </a></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Habilidades</a></li>
+                            <li><a href="#proyec" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Joaquin Abel Barnada</span> Desarrollador Web</h2>
+                <p class="descripcion">Apasionado por la tecnología y programación </p>
+                <a href="#proyec">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="C:\Users\joaco\Documents\proyecto-final\css\img\foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Joaquin Abel Barnada</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Tengo 24 años, residiendo en argentina actualmente, estudiando desarrllo web y proximamente la diplomatura en desarrollo full stack. </p>
+            <p>Podrán descargar mi curriculum a continuación.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+
+    </section>
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis habilidades</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <p>Trabajos con los standares actuales, personalizado al cliente y público destinado.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación PHP</h4>
+                <hr>
+                </ul>
+                <p>Proximamente ( PHP es un lenguaje de programación interpretado del lado del servidor y de uso general que se adapta especialmente al desarrollo web ) </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                </ul>
+                <p>Proximamente ( Conjunto de estrategias y técnicas de optimización que se hacen en una página web para que aparezca orgánicamente en buscadores de Internet como
+                    Google, Yahoo o Youtube )</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <p>Asentamiento de sitios en servidores de alta fiabilidad</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <p>Generación y desarrollo de proyectos de comunicacion visual y de alcance social, que respondan a las necesidades del trabajo.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="proyec">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto1.jpg" alt="ejemplo de proyecto1">
+                <div class="info">
+                    <h4>Proyecto de ejemplo</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 1</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 2</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 3</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 4</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 5</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 6</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 7</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="C:\Users\joaco\Documents\proyecto-final\css\img\proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de ejemplo 8</h4>
+                    <p>Diseño de ejemplo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="C:\Users\joaco\Documents\proyecto-final\js\script.js"></script>
+</body>
+
+</html>
